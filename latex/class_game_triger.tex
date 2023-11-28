@@ -1,0 +1,159 @@
+\doxysection{Game\+Triger Class Reference}
+\hypertarget{class_game_triger}{}\label{class_game_triger}\index{GameTriger@{GameTriger}}
+
+
+Klasa reprezentująca obiekt wyzwalacza w grze.  
+
+
+
+
+{\ttfamily \#include $<$Game\+Triger.\+h$>$}
+
+Inheritance diagram for Game\+Triger\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_game_triger}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_triger_a16f341dfb3c983bfdd971c295ea0ff43}{Game\+Triger}} (int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}, std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} Type)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_game_triger}{Game\+Triger}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_triger_a68baccbf00d74bcdf21b2df2ec034828}{Add\+Triger}} (std\+::function$<$ void(\mbox{\hyperlink{class_game_object}{Game\+Object}} \&, \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*}\&, std\+::vector$<$ \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*} $>$ \texorpdfstring{$\ast$}{*})$>$ func)
+\begin{DoxyCompactList}\small\item\em Dodaje funkcję wyzwalacza. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_triger_a4e719c743755f528c34a57283ef4802a}{Update}} (\mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*}\&obj, std\+::vector$<$ \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*} $>$ \texorpdfstring{$\ast$}{*}objects)
+\begin{DoxyCompactList}\small\item\em Aktualizuje funkcje wyzwalacza w zależności od warunków. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_game_object}{Game\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_object_ad6fb85fc0804954fdaff86eb15d5fd79}{Game\+Object}} (int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}, std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} Type)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_game_object}{Game\+Object}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aea78635b70b5da74b58674a758ec7da4}{Set\+Point\+Count}} (unsigned int count)
+\begin{DoxyCompactList}\small\item\em Ustawia liczbę punktów obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a339ccb3a66680e32ec78db59ae384344}{set\+Point}} (unsigned int index, sf\+::\+Vector2f position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycję punktu o określonym indeksie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}{set\+Position}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycję obiektu. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_object_a71c7fb36911314246c72ceac0dc08ab2}{set\+Size}} (float width, float height)
+\begin{DoxyCompactList}\small\item\em Ustawia rozmiar obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a00805709ee812770858c3dc8553d9046}{set\+Outline\+Thickness}} (float thickness)
+\begin{DoxyCompactList}\small\item\em Ustawia grubość obrysu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a0b7bad4284514bd6baed96e320868436}{set\+Outline\+Color}} (sf\+::\+Color color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor obrysu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a9f8722a10518089d7e54b2430f03f50b}{set\+Color}} (sf\+::\+Color color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor wypełnienia obiektu. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_object_a759b7c843fc0614f7b6c062cff9bd8a4}{set\+Origin}} (float x=50, float y=50)
+\begin{DoxyCompactList}\small\item\em Ustawia punkt obrotu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a3c2fdf49238caee1821f367cd451a979}{set\+Texture}} (const std\+::string Load\+From\+File)
+\begin{DoxyCompactList}\small\item\em Ładuje teksturę z pliku i ustawia ją na obiekcie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aece182c327775543cbc45ed8bf0fb4dc}{Move}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Przesuwa obiekt o określone wartości współrzędnych. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aee1069eed544ac1095146be3a381f864}{Rotate}} (float degree)
+\begin{DoxyCompactList}\small\item\em Obraca obiekt o określony kąt. \end{DoxyCompactList}\item 
+sf\+::\+Float\+Rect \mbox{\hyperlink{class_game_object_a0671f504902dd349260131c0a8e19752}{Get\+Global\+Bounds}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca globalne granice obiektu. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_object_a027fc4f5c934947ae450dedad07f7f37}{Intersects}} (\mbox{\hyperlink{class_game_object}{Game\+Object}} \&obj)
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy obiekt przecina się z innym obiektem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a8c9b9857975483de4dc402fbf4b0bf24}{Draw\+Object}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Rysuje obiekt na oknie. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Game\+Object} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxylink{class_game_object}{Game\+Object}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_game_triger_a331ea55570ccfecec488b0c99555d5fa}\label{class_game_triger_a331ea55570ccfecec488b0c99555d5fa} 
+std\+::vector$<$ std\+::function$<$ void(\mbox{\hyperlink{class_game_object}{Game\+Object}} \&, \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*}\&, std\+::vector$<$ \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*} $>$ \texorpdfstring{$\ast$}{*})$>$ $>$ {\bfseries Trigers}
+\begin{DoxyCompactList}\small\item\em Wektor funkcji wyzwalaczy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_game_object}{Game\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}
+\item 
+int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}
+\item 
+sf\+::\+Drawable \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_game_object_a239047c4838aafff4dbd87b77c80d29e}{drawable}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{class_game_object_aca8660f812a0fd12180e0ffea73132ea}{texture}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Types inherited from \mbox{\hyperlink{class_game_object}{Game\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} \{ \newline
+\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaefbc2f96f552b087322f1ff35a9a65f7}{Square}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeacda6f2504d2c805ce0333522f9737b3a}{Circle}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaecd46e576795e1ada2af7710c68ec242}{Triangle}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0d8d8cf24da7a725635857e218f3cf01}{Polyhedron}}
+, \newline
+\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0535d99b696f991f07fd3185d71d86ad}{Sprite}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeracja określająca różne kształty obiektu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentująca obiekt wyzwalacza w grze. 
+
+Klasa dziedziczy po \doxylink{class_game_object}{Game\+Object} i umożliwia dodawanie funkcji wyzwalacza, które są wywoływane przy określonych warunkach. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_game_triger_a16f341dfb3c983bfdd971c295ea0ff43}\label{class_game_triger_a16f341dfb3c983bfdd971c295ea0ff43} 
+\index{GameTriger@{GameTriger}!GameTriger@{GameTriger}}
+\index{GameTriger@{GameTriger}!GameTriger@{GameTriger}}
+\doxysubsubsection{\texorpdfstring{GameTriger()}{GameTriger()}}
+{\footnotesize\ttfamily Game\+Triger\+::\+Game\+Triger (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{name,  }\item[{\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}}}]{Type }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \doxylink{class_game_triger}{Game\+Triger}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identyfikator obiektu. \\
+\hline
+{\em name} & Nazwa obiektu. \\
+\hline
+{\em Type} & Typ obiektu (Shape\+Type). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game_triger_a68baccbf00d74bcdf21b2df2ec034828}\label{class_game_triger_a68baccbf00d74bcdf21b2df2ec034828} 
+\index{GameTriger@{GameTriger}!AddTriger@{AddTriger}}
+\index{AddTriger@{AddTriger}!GameTriger@{GameTriger}}
+\doxysubsubsection{\texorpdfstring{AddTriger()}{AddTriger()}}
+{\footnotesize\ttfamily void Game\+Triger\+::\+Add\+Triger (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(\mbox{\hyperlink{class_game_object}{Game\+Object}} \&, \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*}\&, std\+::vector$<$ \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*} $>$ \texorpdfstring{$\ast$}{*})$>$}]{func }\end{DoxyParamCaption})}
+
+
+
+Dodaje funkcję wyzwalacza. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em func} & Funkcja wyzwalacza. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_triger_a4e719c743755f528c34a57283ef4802a}\label{class_game_triger_a4e719c743755f528c34a57283ef4802a} 
+\index{GameTriger@{GameTriger}!Update@{Update}}
+\index{Update@{Update}!GameTriger@{GameTriger}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Game\+Triger\+::\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*}\&}]{obj,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_game_object}{Game\+Object}} \texorpdfstring{$\ast$}{*} $>$ \texorpdfstring{$\ast$}{*}}]{objects }\end{DoxyParamCaption})}
+
+
+
+Aktualizuje funkcje wyzwalacza w zależności od warunków. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & Wskaźnik do obiektu, który może być używany w funkcjach wyzwalaczy. \\
+\hline
+{\em objects} & Wektor obiektów, który może być używany w funkcjach wyzwalaczy. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_game_triger_8h}{Game\+Triger.\+h}}\item 
+Game\+Triger.\+cpp\end{DoxyCompactItemize}

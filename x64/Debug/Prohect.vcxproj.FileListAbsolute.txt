@@ -1,0 +1,2 @@
+C:\Users\shvab\source\repos\Prohect\x64\Debug\Prohect.exe
+C:\Users\shvab\source\repos\GameEngine2D\x64\Debug\Prohect.exe

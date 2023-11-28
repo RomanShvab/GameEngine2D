@@ -1,0 +1,26 @@
+\doxysection{Game\+Input\+Suport.\+h}
+\hypertarget{_game_input_suport_8h_source}{}\label{_game_input_suport_8h_source}\mbox{\hyperlink{_game_input_suport_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}GameObject.h"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_game_input_suport}{GameInputSuport}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_game_object}{GameObject}}\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00016\ \ \ \ \ std::map<sf::Keyboard::Key,\ std::function<void(\mbox{\hyperlink{class_game_object}{GameObject}}*)>>\ \mbox{\hyperlink{class_game_input_suport_affe4d7aa9f5651179ea429985a8865fc}{keyboardFunctions}};\ }
+\DoxyCodeLine{00017\ \ \ \ \ std::map<sf::Mouse::Button,\ std::function<void(\mbox{\hyperlink{class_game_object}{GameObject}}*)>>\ \mbox{\hyperlink{class_game_input_suport_a3459875be500ae198348646ae74ed5ee}{mouseFunctions}};\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_game_input_suport}{GameInputSuport}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ std::string\ \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}},\ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{ShapeType}}\ Type);}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_input_suport_a1e0fca8e69b759f8545e3148fac5156a}{AddFunction}}(std::function<\textcolor{keywordtype}{void}(\mbox{\hyperlink{class_game_object}{GameObject}}*)>\ func,\ sf::Keyboard::Key\ key);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_input_suport_a1e0fca8e69b759f8545e3148fac5156a}{AddFunction}}(std::function<\textcolor{keywordtype}{void}(\mbox{\hyperlink{class_game_object}{GameObject}}*)>\ func,\ sf::Mouse::Button\ key);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_input_suport_ae0b866a0bc92995f8dc5b18fd2be0331}{Update}}(\mbox{\hyperlink{class_game_object}{GameObject}}*\ obj);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{class_game_input_suport_ad9d80aa0b1360117e73d58cc9ecf80c9}{\string~GameInputSuport}}();}
+\DoxyCodeLine{00052\ \};}
+
+\end{DoxyCode}

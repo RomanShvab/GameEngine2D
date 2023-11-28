@@ -1,0 +1,26 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Prohect.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Animation.cpp
+  GameEngine.cpp
+C:\Users\shvab\source\repos\GameEngine2D\GameEngine.cpp(13,60): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\shvab\source\repos\GameEngine2D\GameEngine.cpp(13,47): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  GameInputSuport.cpp
+  GameObject.cpp
+  GameTriger.cpp
+  main.cpp
+  Run.cpp
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(69,35): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(91,53): warning C4305: аргумент: усечение из "double" в "float"
+  Создание кода...
+  Project.vcxproj -> C:\Users\shvab\source\repos\GameEngine2D\x64\Debug\Project.exe

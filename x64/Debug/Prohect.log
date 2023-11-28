@@ -1,0 +1,525 @@
+﻿  GameEngine.cpp
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(60,6): error C2653: GameEngine: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(65,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,17): error C2065: Coin: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,22): error C2059: синтаксическая ошибка: >
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(68,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(69,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(70,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(71,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1804,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1786,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1780,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1809,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1798,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1792,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,29): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,9): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,5): error C2065: Player: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,24): error C2061: синтаксическая ошибка: идентификатор "Player"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,22): error C2227: выражение слева от "->setTexture" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,22): error C2227: выражение слева от "->setSize" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,64): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(102,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(106,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(120,12): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(122,16): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(124,17): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(128,9): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,26): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,33): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,88): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2061: синтаксическая ошибка: идентификатор "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2146: синтаксическая ошибка: отсутствие "(" перед идентификатором "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(134,42): error C3536: coins: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,23): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): error C2440: =: невозможно преобразовать "int" в "GameObject *"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,19): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,48): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,18): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,34): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(143,17): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,50): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,75): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(145,49): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(149,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,26): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C2530: obj: ссылки должны быть инициализированы
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C3531: obj: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,24): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,33): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(151,30): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(153,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameEngine.cpp(13,60): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\shvab\source\repos\GameEngine2D\GameEngine.cpp(13,47): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  GameTriger.cpp
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(60,6): error C2653: GameEngine: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(65,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,17): error C2065: Coin: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,22): error C2059: синтаксическая ошибка: >
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(68,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(69,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(70,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(71,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1804,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1786,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1780,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1809,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1798,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1792,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,29): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,9): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,5): error C2065: Player: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,24): error C2061: синтаксическая ошибка: идентификатор "Player"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,22): error C2227: выражение слева от "->setTexture" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,22): error C2227: выражение слева от "->setSize" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,64): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(102,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(106,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(120,12): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(122,16): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(124,17): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(128,9): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,26): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,33): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,88): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2061: синтаксическая ошибка: идентификатор "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2146: синтаксическая ошибка: отсутствие "(" перед идентификатором "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(134,42): error C3536: coins: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,23): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): error C2440: =: невозможно преобразовать "int" в "GameObject *"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,19): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,48): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,18): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,34): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(143,17): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,50): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,75): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(145,49): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(149,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,26): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C2530: obj: ссылки должны быть инициализированы
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C3531: obj: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,24): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,33): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(151,30): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(153,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(7,6): error C2084: функция "void MoveRight(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(7,6): message : см. предыдущее определение "MoveRight"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(15,6): error C2084: функция "void MoveLeft(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(15,6): message : см. предыдущее определение "MoveLeft"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(23,6): error C2084: функция "void MoveUp(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(23,6): message : см. предыдущее определение "MoveUp"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(31,6): error C2084: функция "void MoveDown(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(31,6): message : см. предыдущее определение "MoveDown"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(41,6): error C2084: функция "void Delete(GameObject &,GameObject *&,std::vector<GameObject *,std::allocator<GameObject *>> *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(41,6): message : см. предыдущее определение "Delete"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,17): error C2065: Coin: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,22): error C2059: синтаксическая ошибка: >
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(68,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(69,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(70,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(71,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1804,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1786,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1780,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1809,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1798,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1792,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,29): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,9): error C2664: "void GameEngine::addObject(GameObject *)": невозможно преобразовать аргумент 1 из "int" в "GameObject *"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,19): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\shvab\source\repos\GameEngine2D\GameEngine.h(39,10): message : см. объявление "GameEngine::addObject"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,9): message : при попытке сопоставить список аргументов "(int)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,5): error C2065: Player: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,24): error C2061: синтаксическая ошибка: идентификатор "Player"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,22): error C2227: выражение слева от "->setTexture" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,22): error C2227: выражение слева от "->setSize" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,9): fatal  error C1003: число ошибок превышает 100; остановка компиляции
+  main.cpp
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(60,6): error C2653: GameEngine: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(65,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,17): error C2065: Coin: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,22): error C2059: синтаксическая ошибка: >
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(68,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(69,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(70,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(71,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1804,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1786,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1780,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1809,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1798,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1792,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,29): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,9): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,5): error C2065: Player: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,24): error C2061: синтаксическая ошибка: идентификатор "Player"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,22): error C2227: выражение слева от "->setTexture" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,22): error C2227: выражение слева от "->setSize" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,64): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(102,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(106,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(120,12): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(122,16): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(124,17): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(128,9): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,26): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,33): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,88): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2061: синтаксическая ошибка: идентификатор "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2146: синтаксическая ошибка: отсутствие "(" перед идентификатором "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(134,42): error C3536: coins: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,23): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): error C2440: =: невозможно преобразовать "int" в "GameObject *"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,19): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,48): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,18): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,34): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(143,17): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,50): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,75): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(145,49): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(149,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,26): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C2530: obj: ссылки должны быть инициализированы
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C3531: obj: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,24): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,33): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(151,30): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(153,9): error C2065: window: необъявленный идентификатор
+  Run.cpp
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(60,6): error C2653: GameEngine: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(65,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,17): error C2065: Coin: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(67,22): error C2059: синтаксическая ошибка: >
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(68,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(69,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(70,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(71,28): error C2061: синтаксическая ошибка: идентификатор "Coin"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1804,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1786,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1780,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1809,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1798,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1792,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : Со следующими аргументами шаблона:
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,24): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(77,29): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(80,9): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,5): error C2065: Player: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(85,24): error C2061: синтаксическая ошибка: идентификатор "Player"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(86,22): error C2227: выражение слева от "->setTexture" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(87,22): error C2227: выражение слева от "->setSize" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(88,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(89,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(90,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(91,28): error C2227: выражение слева от "->AddFunction" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(92,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(93,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,5): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(94,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,64): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(95,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(102,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(106,5): error C3861: addObject: идентификатор не найден
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(120,12): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(122,16): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(124,17): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(128,9): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,26): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(130,33): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(131,88): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,9): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,32): error C2227: выражение слева от "->Update" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2061: синтаксическая ошибка: идентификатор "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(132,76): error C2146: синтаксическая ошибка: отсутствие "(" перед идентификатором "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(134,42): error C3536: coins: не может использоваться до инициализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,23): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): error C2440: =: невозможно преобразовать "int" в "GameObject *"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(135,24): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,13): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,19): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(136,48): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,18): error C2100: недопустимое косвенное обращение
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(138,34): error C2065: Time: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(143,17): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,50): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(144,75): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(145,49): error C2065: Hero: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(149,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,26): error C2065: objects: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C2530: obj: ссылки должны быть инициализированы
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,9): error C3531: obj: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,24): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(150,33): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(151,30): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(153,9): error C2065: window: необъявленный идентификатор
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(7,6): error C2084: функция "void MoveRight(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(7,6): message : см. предыдущее определение "MoveRight"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(8,15): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(15,6): error C2084: функция "void MoveLeft(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(15,6): message : см. предыдущее определение "MoveLeft"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(16,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(23,6): error C2084: функция "void MoveUp(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(23,6): message : см. предыдущее определение "MoveUp"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(24,18): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(31,6): error C2084: функция "void MoveDown(GameObject *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(31,6): message : см. предыдущее определение "MoveDown"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(32,19): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(41,6): error C2084: функция "void Delete(GameObject &,GameObject *&,std::vector<GameObject *,std::allocator<GameObject *>> *)" уже имеет текст реализации
+C:\Users\shvab\source\repos\GameEngine2D\GameTriger.h(41,6): message : см. предыдущее определение "Delete"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(61,65): error C2504: GameTriger: не определен базовый класс
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(65,42): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(65,106): error C2614: Player: недопустимая инициализация члена: "GameTriger" не является базовым классом или членом
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(81,53): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(125,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(125,23): error C2039: "AddTriger": не является членом "Player".
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(61,7): message : см. объявление "Player"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(126,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(126,23): error C2385: неоднозначный уровень доступа "setTexture"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(126,23): message : может быть "setTexture" в базе "GameObject"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(126,23): message : или может быть "setTexture" в базе "GameObject"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(127,11): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(127,23): error C2385: неоднозначный уровень доступа "setSize"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(127,23): message : может быть "setSize" в базе "Animation"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(127,23): message : или может быть "setSize" в базе "GameObject"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(167,76): error C2061: синтаксическая ошибка: идентификатор "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(167,76): error C2146: синтаксическая ошибка: отсутствие "(" перед идентификатором "GameTriger"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(173,19): error C2653: GameTriger: не является именем класса или пространства имен
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(173,31): error C2385: неоднозначный уровень доступа "Update"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(173,31): message : может быть "Update" в базе "Animation"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(173,31): message : или может быть "Update" в базе "GameInputSuport"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(173,17): error C2660: Animation::Update: функция не принимает 2 аргументов
+C:\Users\shvab\source\repos\GameEngine2D\Animation.h(39,10): message : см. объявление "Animation::Update"
+C:\Users\shvab\source\repos\GameEngine2D\Run.cpp(173,17): message : при попытке сопоставить список аргументов "(GameObject *, std::vector<GameObject *,std::allocator<GameObject *>> *)"
+  Создание кода...

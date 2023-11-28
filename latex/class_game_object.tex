@@ -1,0 +1,401 @@
+\doxysection{Game\+Object Class Reference}
+\hypertarget{class_game_object}{}\label{class_game_object}\index{GameObject@{GameObject}}
+
+
+Klasa reprezentująca obiekt w grze.  
+
+
+
+
+{\ttfamily \#include $<$Game\+Object.\+h$>$}
+
+Inheritance diagram for Game\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_game_object}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} \{ \newline
+\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaefbc2f96f552b087322f1ff35a9a65f7}{Square}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeacda6f2504d2c805ce0333522f9737b3a}{Circle}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaecd46e576795e1ada2af7710c68ec242}{Triangle}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0d8d8cf24da7a725635857e218f3cf01}{Polyhedron}}
+, \newline
+\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0535d99b696f991f07fd3185d71d86ad}{Sprite}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeracja określająca różne kształty obiektu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_object_ad6fb85fc0804954fdaff86eb15d5fd79}{Game\+Object}} (int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}, std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} Type)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_game_object}{Game\+Object}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aea78635b70b5da74b58674a758ec7da4}{Set\+Point\+Count}} (unsigned int count)
+\begin{DoxyCompactList}\small\item\em Ustawia liczbę punktów obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a339ccb3a66680e32ec78db59ae384344}{set\+Point}} (unsigned int index, sf\+::\+Vector2f position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycję punktu o określonym indeksie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}{set\+Position}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycję obiektu. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_object_a71c7fb36911314246c72ceac0dc08ab2}{set\+Size}} (float width, float height)
+\begin{DoxyCompactList}\small\item\em Ustawia rozmiar obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a00805709ee812770858c3dc8553d9046}{set\+Outline\+Thickness}} (float thickness)
+\begin{DoxyCompactList}\small\item\em Ustawia grubość obrysu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a0b7bad4284514bd6baed96e320868436}{set\+Outline\+Color}} (sf\+::\+Color color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor obrysu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a9f8722a10518089d7e54b2430f03f50b}{set\+Color}} (sf\+::\+Color color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor wypełnienia obiektu. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_object_a759b7c843fc0614f7b6c062cff9bd8a4}{set\+Origin}} (float x=50, float y=50)
+\begin{DoxyCompactList}\small\item\em Ustawia punkt obrotu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a3c2fdf49238caee1821f367cd451a979}{set\+Texture}} (const std\+::string Load\+From\+File)
+\begin{DoxyCompactList}\small\item\em Ładuje teksturę z pliku i ustawia ją na obiekcie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aece182c327775543cbc45ed8bf0fb4dc}{Move}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Przesuwa obiekt o określone wartości współrzędnych. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aee1069eed544ac1095146be3a381f864}{Rotate}} (float degree)
+\begin{DoxyCompactList}\small\item\em Obraca obiekt o określony kąt. \end{DoxyCompactList}\item 
+sf\+::\+Float\+Rect \mbox{\hyperlink{class_game_object_a0671f504902dd349260131c0a8e19752}{Get\+Global\+Bounds}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca globalne granice obiektu. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_object_a027fc4f5c934947ae450dedad07f7f37}{Intersects}} (\mbox{\hyperlink{class_game_object}{Game\+Object}} \&obj)
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy obiekt przecina się z innym obiektem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a8c9b9857975483de4dc402fbf4b0bf24}{Draw\+Object}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Rysuje obiekt na oknie. \end{DoxyCompactList}\item 
+\Hypertarget{class_game_object_ab82dfdb656f9051c0587e6593b2dda97}\label{class_game_object_ab82dfdb656f9051c0587e6593b2dda97} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Game\+Object} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxylink{class_game_object}{Game\+Object}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}
+\item 
+int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}
+\item 
+sf\+::\+Drawable \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_game_object_a239047c4838aafff4dbd87b77c80d29e}{drawable}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{class_game_object_aca8660f812a0fd12180e0ffea73132ea}{texture}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentująca obiekt w grze. 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_game_object_a760b196296608770b2da5e247baa0afe}\label{class_game_object_a760b196296608770b2da5e247baa0afe} 
+\index{GameObject@{GameObject}!ShapeType@{ShapeType}}
+\index{ShapeType@{ShapeType}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{ShapeType}{ShapeType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Game\+Object\+::\+Shape\+Type}}}
+
+
+
+Enumeracja określająca różne kształty obiektu. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Square@{Square}!GameObject@{GameObject}}\index{GameObject@{GameObject}!Square@{Square}}}\Hypertarget{class_game_object_a760b196296608770b2da5e247baa0afeaefbc2f96f552b087322f1ff35a9a65f7}\label{class_game_object_a760b196296608770b2da5e247baa0afeaefbc2f96f552b087322f1ff35a9a65f7} 
+Square&Kwadrat. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Circle@{Circle}!GameObject@{GameObject}}\index{GameObject@{GameObject}!Circle@{Circle}}}\Hypertarget{class_game_object_a760b196296608770b2da5e247baa0afeacda6f2504d2c805ce0333522f9737b3a}\label{class_game_object_a760b196296608770b2da5e247baa0afeacda6f2504d2c805ce0333522f9737b3a} 
+Circle&Okrąg. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Triangle@{Triangle}!GameObject@{GameObject}}\index{GameObject@{GameObject}!Triangle@{Triangle}}}\Hypertarget{class_game_object_a760b196296608770b2da5e247baa0afeaecd46e576795e1ada2af7710c68ec242}\label{class_game_object_a760b196296608770b2da5e247baa0afeaecd46e576795e1ada2af7710c68ec242} 
+Triangle&Trójkąt. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Polyhedron@{Polyhedron}!GameObject@{GameObject}}\index{GameObject@{GameObject}!Polyhedron@{Polyhedron}}}\Hypertarget{class_game_object_a760b196296608770b2da5e247baa0afea0d8d8cf24da7a725635857e218f3cf01}\label{class_game_object_a760b196296608770b2da5e247baa0afea0d8d8cf24da7a725635857e218f3cf01} 
+Polyhedron&Wielościan (niezaimplementowany). \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Sprite@{Sprite}!GameObject@{GameObject}}\index{GameObject@{GameObject}!Sprite@{Sprite}}}\Hypertarget{class_game_object_a760b196296608770b2da5e247baa0afea0535d99b696f991f07fd3185d71d86ad}\label{class_game_object_a760b196296608770b2da5e247baa0afea0535d99b696f991f07fd3185d71d86ad} 
+Sprite&Sprite. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_game_object_ad6fb85fc0804954fdaff86eb15d5fd79}\label{class_game_object_ad6fb85fc0804954fdaff86eb15d5fd79} 
+\index{GameObject@{GameObject}!GameObject@{GameObject}}
+\index{GameObject@{GameObject}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{GameObject()}{GameObject()}}
+{\footnotesize\ttfamily Game\+Object\+::\+Game\+Object (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{name,  }\item[{\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}}}]{Type }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \doxylink{class_game_object}{Game\+Object}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identyfikator obiektu. \\
+\hline
+{\em name} & Nazwa obiektu. \\
+\hline
+{\em Type} & Typ kształtu obiektu. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game_object_a8c9b9857975483de4dc402fbf4b0bf24}\label{class_game_object_a8c9b9857975483de4dc402fbf4b0bf24} 
+\index{GameObject@{GameObject}!DrawObject@{DrawObject}}
+\index{DrawObject@{DrawObject}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{DrawObject()}{DrawObject()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Draw\+Object (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Rysuje obiekt na oknie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & Referencja do okna, na którym rysować. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a0671f504902dd349260131c0a8e19752}\label{class_game_object_a0671f504902dd349260131c0a8e19752} 
+\index{GameObject@{GameObject}!GetGlobalBounds@{GetGlobalBounds}}
+\index{GetGlobalBounds@{GetGlobalBounds}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{GetGlobalBounds()}{GetGlobalBounds()}}
+{\footnotesize\ttfamily sf\+::\+Float\+Rect Game\+Object\+::\+Get\+Global\+Bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Zwraca globalne granice obiektu. 
+
+\begin{DoxyReturn}{Returns}
+Obiekt sf\+::\+Float\+Rect reprezentujący granice obiektu. 
+\end{DoxyReturn}
+\Hypertarget{class_game_object_a027fc4f5c934947ae450dedad07f7f37}\label{class_game_object_a027fc4f5c934947ae450dedad07f7f37} 
+\index{GameObject@{GameObject}!Intersects@{Intersects}}
+\index{Intersects@{Intersects}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{Intersects()}{Intersects()}}
+{\footnotesize\ttfamily bool Game\+Object\+::\+Intersects (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_object}{Game\+Object}} \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Sprawdza, czy obiekt przecina się z innym obiektem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & Drugi obiekt do sprawdzenia kolizji. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wartość logiczna informująca o tym, czy obiekty się przecinają. 
+\end{DoxyReturn}
+\Hypertarget{class_game_object_aece182c327775543cbc45ed8bf0fb4dc}\label{class_game_object_aece182c327775543cbc45ed8bf0fb4dc} 
+\index{GameObject@{GameObject}!Move@{Move}}
+\index{Move@{Move}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Move (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+
+
+Przesuwa obiekt o określone wartości współrzędnych. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Przesunięcie względem osi x. \\
+\hline
+{\em y} & Przesunięcie względem osi y. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_aee1069eed544ac1095146be3a381f864}\label{class_game_object_aee1069eed544ac1095146be3a381f864} 
+\index{GameObject@{GameObject}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Rotate (\begin{DoxyParamCaption}\item[{float}]{degree }\end{DoxyParamCaption})}
+
+
+
+Obraca obiekt o określony kąt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em degree} & Kąt obrotu w stopniach. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a9f8722a10518089d7e54b2430f03f50b}\label{class_game_object_a9f8722a10518089d7e54b2430f03f50b} 
+\index{GameObject@{GameObject}!setColor@{setColor}}
+\index{setColor@{setColor}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Color (\begin{DoxyParamCaption}\item[{sf\+::\+Color}]{color }\end{DoxyParamCaption})}
+
+
+
+Ustawia kolor wypełnienia obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & Kolor wypełnienia. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a759b7c843fc0614f7b6c062cff9bd8a4}\label{class_game_object_a759b7c843fc0614f7b6c062cff9bd8a4} 
+\index{GameObject@{GameObject}!setOrigin@{setOrigin}}
+\index{setOrigin@{setOrigin}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setOrigin()}{setOrigin()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Origin (\begin{DoxyParamCaption}\item[{float}]{x = {\ttfamily 50},  }\item[{float}]{y = {\ttfamily 50} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Ustawia punkt obrotu obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Współrzędna x punktu obrotu. \\
+\hline
+{\em y} & Współrzędna y punktu obrotu. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_animation_a75fcdb90cc2c45057d514e363a12c471}{Animation}}.
+
+\Hypertarget{class_game_object_a0b7bad4284514bd6baed96e320868436}\label{class_game_object_a0b7bad4284514bd6baed96e320868436} 
+\index{GameObject@{GameObject}!setOutlineColor@{setOutlineColor}}
+\index{setOutlineColor@{setOutlineColor}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setOutlineColor()}{setOutlineColor()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Outline\+Color (\begin{DoxyParamCaption}\item[{sf\+::\+Color}]{color }\end{DoxyParamCaption})}
+
+
+
+Ustawia kolor obrysu obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & Kolor obrysu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a00805709ee812770858c3dc8553d9046}\label{class_game_object_a00805709ee812770858c3dc8553d9046} 
+\index{GameObject@{GameObject}!setOutlineThickness@{setOutlineThickness}}
+\index{setOutlineThickness@{setOutlineThickness}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setOutlineThickness()}{setOutlineThickness()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Outline\+Thickness (\begin{DoxyParamCaption}\item[{float}]{thickness }\end{DoxyParamCaption})}
+
+
+
+Ustawia grubość obrysu obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em thickness} & Grubość obrysu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a339ccb3a66680e32ec78db59ae384344}\label{class_game_object_a339ccb3a66680e32ec78db59ae384344} 
+\index{GameObject@{GameObject}!setPoint@{setPoint}}
+\index{setPoint@{setPoint}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setPoint()}{setPoint()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Point (\begin{DoxyParamCaption}\item[{unsigned int}]{index,  }\item[{sf\+::\+Vector2f}]{position }\end{DoxyParamCaption})}
+
+
+
+Ustawia pozycję punktu o określonym indeksie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Indeks punktu. \\
+\hline
+{\em position} & Pozycja punktu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_aea78635b70b5da74b58674a758ec7da4}\label{class_game_object_aea78635b70b5da74b58674a758ec7da4} 
+\index{GameObject@{GameObject}!SetPointCount@{SetPointCount}}
+\index{SetPointCount@{SetPointCount}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{SetPointCount()}{SetPointCount()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Set\+Point\+Count (\begin{DoxyParamCaption}\item[{unsigned int}]{count }\end{DoxyParamCaption})}
+
+
+
+Ustawia liczbę punktów obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em count} & Liczba punktów. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}\label{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad} 
+\index{GameObject@{GameObject}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Position (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+
+
+Ustawia pozycję obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Współrzędna x. \\
+\hline
+{\em y} & Współrzędna y. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_object_a71c7fb36911314246c72ceac0dc08ab2}\label{class_game_object_a71c7fb36911314246c72ceac0dc08ab2} 
+\index{GameObject@{GameObject}!setSize@{setSize}}
+\index{setSize@{setSize}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setSize()}{setSize()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Size (\begin{DoxyParamCaption}\item[{float}]{width,  }\item[{float}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Ustawia rozmiar obiektu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & Szerokość. \\
+\hline
+{\em height} & Wysokość. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_animation_a597dfc5f18080a30ae95593b9dd2d9df}{Animation}}.
+
+\Hypertarget{class_game_object_a3c2fdf49238caee1821f367cd451a979}\label{class_game_object_a3c2fdf49238caee1821f367cd451a979} 
+\index{GameObject@{GameObject}!setTexture@{setTexture}}
+\index{setTexture@{setTexture}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setTexture()}{setTexture()}}
+{\footnotesize\ttfamily void Game\+Object\+::set\+Texture (\begin{DoxyParamCaption}\item[{const std\+::string}]{Load\+From\+File }\end{DoxyParamCaption})}
+
+
+
+Ładuje teksturę z pliku i ustawia ją na obiekcie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Load\+From\+File} & Ścieżka do pliku z teksturą. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_game_object_a239047c4838aafff4dbd87b77c80d29e}\label{class_game_object_a239047c4838aafff4dbd87b77c80d29e} 
+\index{GameObject@{GameObject}!drawable@{drawable}}
+\index{drawable@{drawable}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{drawable}{drawable}}
+{\footnotesize\ttfamily sf\+::\+Drawable\texorpdfstring{$\ast$}{*} Game\+Object\+::drawable\hspace{0.3cm}{\ttfamily [protected]}}
+
+Wskaźnik na obiekt rysowalny. \Hypertarget{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}\label{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3} 
+\index{GameObject@{GameObject}!id@{id}}
+\index{id@{id}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int Game\+Object\+::id\hspace{0.3cm}{\ttfamily [protected]}}
+
+Identyfikator obiektu. \Hypertarget{class_game_object_af542b33c8de269343e22c5629e6b66c0}\label{class_game_object_af542b33c8de269343e22c5629e6b66c0} 
+\index{GameObject@{GameObject}!name@{name}}
+\index{name@{name}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string Game\+Object\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+Nazwa obiektu. \Hypertarget{class_game_object_aca8660f812a0fd12180e0ffea73132ea}\label{class_game_object_aca8660f812a0fd12180e0ffea73132ea} 
+\index{GameObject@{GameObject}!texture@{texture}}
+\index{texture@{texture}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily sf\+::\+Texture Game\+Object\+::texture\hspace{0.3cm}{\ttfamily [protected]}}
+
+Tekstura obiektu. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Game\+Object.\+h\item 
+Game\+Object.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,21 @@
+\doxysection{Game\+Triger.\+h}
+\hypertarget{_game_triger_8h_source}{}\label{_game_triger_8h_source}\mbox{\hyperlink{_game_triger_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}GameObject.h"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_game_triger}{GameTriger}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_game_object}{GameObject}}\ \{}
+\DoxyCodeLine{00014\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00015\ \ \ \ \ std::vector<std::function<void(\mbox{\hyperlink{class_game_object}{GameObject}}\&,\ \mbox{\hyperlink{class_game_object}{GameObject}}*\&,\ std::vector<GameObject*>*)>>\ \mbox{\hyperlink{class_game_triger_a331ea55570ccfecec488b0c99555d5fa}{Trigers}};\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_game_triger}{GameTriger}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ std::string\ \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}},\ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{ShapeType}}\ Type);}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_triger_a68baccbf00d74bcdf21b2df2ec034828}{AddTriger}}(std::function<\textcolor{keywordtype}{void}(\mbox{\hyperlink{class_game_object}{GameObject}}\&,\ \mbox{\hyperlink{class_game_object}{GameObject}}*\&,\ std::vector<GameObject*>*)>\ func);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_triger_a4e719c743755f528c34a57283ef4802a}{Update}}(\mbox{\hyperlink{class_game_object}{GameObject}}*\&\ obj,\ std::vector<GameObject*>*\ objects);}
+\DoxyCodeLine{00038\ \};}
+
+\end{DoxyCode}

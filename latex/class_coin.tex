@@ -1,0 +1,93 @@
+\doxysection{Coin Class Reference}
+\hypertarget{class_coin}{}\label{class_coin}\index{Coin@{Coin}}
+
+
+Przykładowa klasa reprezentująca Gracza.  
+
+
+Inheritance diagram for Coin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_coin}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_coin_a66d20f7357fad0ddce4cb5dbbaf0ae89}\label{class_coin_a66d20f7357fad0ddce4cb5dbbaf0ae89} 
+{\bfseries Coin} (int coin\+Id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_animation}{Animation}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_animation_aab6065303d8420d63313d3979a3f9208}{Animation}} (int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}, std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}, int image\+Count, float switch\+Time, int pixel\+Width, int pixel\+Height)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_animation}{Animation}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_animation_aafc631b531207d1f7b6748d1d2af501f}{Update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Aktualizuje animację na podstawie upływu czasu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_animation_a597dfc5f18080a30ae95593b9dd2d9df}{set\+Size}} (float width, float height) override
+\begin{DoxyCompactList}\small\item\em Ustawia rozmiar animacji. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_animation_a75fcdb90cc2c45057d514e363a12c471}{set\+Origin}} (float x=50, float y=50) override
+\begin{DoxyCompactList}\small\item\em Ustawia punkt obrotu animacji. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_game_object}{Game\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_object_ad6fb85fc0804954fdaff86eb15d5fd79}{Game\+Object}} (int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}, std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} Type)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_game_object}{Game\+Object}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aea78635b70b5da74b58674a758ec7da4}{Set\+Point\+Count}} (unsigned int count)
+\begin{DoxyCompactList}\small\item\em Ustawia liczbę punktów obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a339ccb3a66680e32ec78db59ae384344}{set\+Point}} (unsigned int index, sf\+::\+Vector2f position)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycję punktu o określonym indeksie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}{set\+Position}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycję obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a00805709ee812770858c3dc8553d9046}{set\+Outline\+Thickness}} (float thickness)
+\begin{DoxyCompactList}\small\item\em Ustawia grubość obrysu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a0b7bad4284514bd6baed96e320868436}{set\+Outline\+Color}} (sf\+::\+Color color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor obrysu obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a9f8722a10518089d7e54b2430f03f50b}{set\+Color}} (sf\+::\+Color color)
+\begin{DoxyCompactList}\small\item\em Ustawia kolor wypełnienia obiektu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a3c2fdf49238caee1821f367cd451a979}{set\+Texture}} (const std\+::string Load\+From\+File)
+\begin{DoxyCompactList}\small\item\em Ładuje teksturę z pliku i ustawia ją na obiekcie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aece182c327775543cbc45ed8bf0fb4dc}{Move}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Przesuwa obiekt o określone wartości współrzędnych. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_aee1069eed544ac1095146be3a381f864}{Rotate}} (float degree)
+\begin{DoxyCompactList}\small\item\em Obraca obiekt o określony kąt. \end{DoxyCompactList}\item 
+sf\+::\+Float\+Rect \mbox{\hyperlink{class_game_object_a0671f504902dd349260131c0a8e19752}{Get\+Global\+Bounds}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca globalne granice obiektu. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_object_a027fc4f5c934947ae450dedad07f7f37}{Intersects}} (\mbox{\hyperlink{class_game_object}{Game\+Object}} \&obj)
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy obiekt przecina się z innym obiektem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a8c9b9857975483de4dc402fbf4b0bf24}{Draw\+Object}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Rysuje obiekt na oknie. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+Game\+Object} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxylink{class_game_object}{Game\+Object}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Types inherited from \mbox{\hyperlink{class_game_object}{Game\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{Shape\+Type}} \{ \newline
+\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaefbc2f96f552b087322f1ff35a9a65f7}{Square}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeacda6f2504d2c805ce0333522f9737b3a}{Circle}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaecd46e576795e1ada2af7710c68ec242}{Triangle}}
+, \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0d8d8cf24da7a725635857e218f3cf01}{Polyhedron}}
+, \newline
+\mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0535d99b696f991f07fd3185d71d86ad}{Sprite}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enumeracja określająca różne kształty obiektu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_game_object}{Game\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}}
+\item 
+int \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}}
+\item 
+sf\+::\+Drawable \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_game_object_a239047c4838aafff4dbd87b77c80d29e}{drawable}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{class_game_object_aca8660f812a0fd12180e0ffea73132ea}{texture}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Przykładowa klasa reprezentująca Gracza. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Run.\+cpp\end{DoxyCompactItemize}

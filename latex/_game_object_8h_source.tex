@@ -1,0 +1,59 @@
+\doxysection{Game\+Object.\+h}
+\hypertarget{_game_object_8h_source}{}\label{_game_object_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <SFML/Graphics.hpp>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <functional>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_game_object}{GameObject}}\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00013\ \ \ \ \ std::string\ \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}};\ }
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_game_object_a98291c60da12d9036e1ad24cfebcf6b3}{id}};\ }
+\DoxyCodeLine{00015\ \ \ \ \ sf::Drawable*\ \mbox{\hyperlink{class_game_object_a239047c4838aafff4dbd87b77c80d29e}{drawable}};\ }
+\DoxyCodeLine{00016\ \ \ \ \ sf::Texture\ \mbox{\hyperlink{class_game_object_aca8660f812a0fd12180e0ffea73132ea}{texture}};\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{enum}\ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{ShapeType}}\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaefbc2f96f552b087322f1ff35a9a65f7}{Square}},\ }
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeacda6f2504d2c805ce0333522f9737b3a}{Circle}},\ }
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afeaecd46e576795e1ada2af7710c68ec242}{Triangle}},\ }
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0d8d8cf24da7a725635857e218f3cf01}{Polyhedron}},\ }
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afea0535d99b696f991f07fd3185d71d86ad}{Sprite}}\ }
+\DoxyCodeLine{00028\ \ \ \ \ \};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{class_game_object}{GameObject}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ std::string\ \mbox{\hyperlink{class_game_object_af542b33c8de269343e22c5629e6b66c0}{name}},\ \mbox{\hyperlink{class_game_object_a760b196296608770b2da5e247baa0afe}{ShapeType}}\ Type);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_aea78635b70b5da74b58674a758ec7da4}{SetPointCount}}(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ count);}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a339ccb3a66680e32ec78db59ae384344}{setPoint}}(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ index,\ sf::Vector2f\ position);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}{setPosition}}(\textcolor{keywordtype}{float}\ x,\ \textcolor{keywordtype}{float}\ y);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a71c7fb36911314246c72ceac0dc08ab2}{setSize}}(\textcolor{keywordtype}{float}\ width,\ \textcolor{keywordtype}{float}\ height);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a00805709ee812770858c3dc8553d9046}{setOutlineThickness}}(\textcolor{keywordtype}{float}\ thickness);}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a0b7bad4284514bd6baed96e320868436}{setOutlineColor}}(sf::Color\ color);}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a9f8722a10518089d7e54b2430f03f50b}{setColor}}(sf::Color\ color);}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a759b7c843fc0614f7b6c062cff9bd8a4}{setOrigin}}(\textcolor{keywordtype}{float}\ x\ =\ 50,\ \textcolor{keywordtype}{float}\ y\ =\ 50);}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00094\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a3c2fdf49238caee1821f367cd451a979}{setTexture}}(\textcolor{keyword}{const}\ std::string\ LoadFromFile);}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_aece182c327775543cbc45ed8bf0fb4dc}{Move}}(\textcolor{keywordtype}{float}\ x,\ \textcolor{keywordtype}{float}\ y);}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_aee1069eed544ac1095146be3a381f864}{Rotate}}(\textcolor{keywordtype}{float}\ degree);}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00113\ \ \ \ \ sf::FloatRect\ \mbox{\hyperlink{class_game_object_a0671f504902dd349260131c0a8e19752}{GetGlobalBounds}}();}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00120\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_game_object_a027fc4f5c934947ae450dedad07f7f37}{Intersects}}(\mbox{\hyperlink{class_game_object}{GameObject}}\&\ obj);}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00126\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_object_a8c9b9857975483de4dc402fbf4b0bf24}{DrawObject}}(sf::RenderWindow\&\ window);}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00131\ \ \ \ \ \mbox{\hyperlink{class_game_object_ab82dfdb656f9051c0587e6593b2dda97}{\string~GameObject}}();}
+\DoxyCodeLine{00132\ \};}
+
+\end{DoxyCode}
